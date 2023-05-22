@@ -1,0 +1,17 @@
+.quoteBox__btn{
+    display: block;
+    margin: 0 auto;
+    background-color: orange;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+}
+.quoteBox__phrase p{
+    padding:30px;
+    text-align: center;
+}
+.quoteBox__phrase{
+    background-color: white;
+    width: 100%;
+    border-radius: 0 0 50px 0;
+}

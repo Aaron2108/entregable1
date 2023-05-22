@@ -1,0 +1,50 @@
+.app{
+  background-image: url(/public/images/bg1.png);
+  background-size: cover;/*pOSICIONA LA IMAGEN PARA Q OCUPE TODO SIN PERDER LA RELACION DE ASPECTO PARA Q NO SE VEA ESTIRADA NI MOVIDA*/
+  min-height: 100vh;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+}
+
+.bg1{
+  background-image: url(/public/images/bg1.png);
+}
+.bg2{
+  background-image: url(/public/images/bg2.png);
+}
+.bg3{
+  background-image: url(/public/images/bg3.png);
+}
+.bg4{
+  background-image: url(/public/images/bg4.png);
+}
+
+.app__container{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  padding: 0 10px;
+}
+h1{
+  text-align: center;
+  padding: 50px 0 0 0; 
+  font-family: 'Sigmar', cursive;
+  font-size: 40px;
+ background: #ffffff;
+ background: linear-gradient(#ffffff, #e9a239);
+ -webkit-text-fill-color:transparent ;
+ -webkit-background-clip: text;
+}
+h3{
+  background: white;
+  opacity: 80%;
+  width: 250px;
+  height: 30px;
+  text-align: center;
+}
+footer{
+  padding: 0 0 20px 0;
+}
